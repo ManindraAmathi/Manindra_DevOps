@@ -3,7 +3,7 @@ services:
   testservice:
     build:
       context: ./myapache
-      dockerfile: dockerfile.apaache
+      dockerfile: dockerfile.apache
     container_name: myapachecont
     image: myapache
     ports:
